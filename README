@@ -1,0 +1,3 @@
+Author: Joshua Kovach
+
+A simple HTTP server.  Reads http requests from a browser and returns an http response header and the file (from /home/user/public_html).  Supports text/html, image/png, and image/jpg.  If-modified-since works in theory, but during testing there were no GET requests featuring this option.
